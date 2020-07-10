@@ -1,0 +1,1535 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3800 1700 3700 1700
+Wire Wire Line
+	3800 2400 3700 2400
+Wire Wire Line
+	3800 3100 3700 3100
+Wire Wire Line
+	3800 3800 3700 3800
+Wire Wire Line
+	3800 4500 3700 4500
+Wire Wire Line
+	4600 4500 4500 4500
+Wire Wire Line
+	4600 3800 4500 3800
+Wire Wire Line
+	4600 3100 4500 3100
+Wire Wire Line
+	4600 2400 4500 2400
+Wire Wire Line
+	4600 1700 4500 1700
+Wire Wire Line
+	5400 1700 5300 1700
+Wire Wire Line
+	5400 2400 5300 2400
+Wire Wire Line
+	5400 3100 5300 3100
+Wire Wire Line
+	5400 3800 5300 3800
+Wire Wire Line
+	5400 4500 5300 4500
+Wire Wire Line
+	3800 5200 3700 5200
+Wire Wire Line
+	6200 5200 6100 5200
+Wire Wire Line
+	7000 5425 6900 5425
+Wire Wire Line
+	6200 4500 6100 4500
+Wire Wire Line
+	7000 4500 6900 4500
+Wire Wire Line
+	7000 3800 6900 3800
+Wire Wire Line
+	6200 3800 6100 3800
+Wire Wire Line
+	7800 3800 7700 3800
+Wire Wire Line
+	8600 3800 8500 3800
+Wire Wire Line
+	7000 3100 6900 3100
+Wire Wire Line
+	6200 3100 6100 3100
+Wire Wire Line
+	7800 3100 7700 3100
+Wire Wire Line
+	8600 2400 8500 2400
+Wire Wire Line
+	7800 2400 7700 2400
+Wire Wire Line
+	7000 2400 6900 2400
+Wire Wire Line
+	6200 2400 6100 2400
+Wire Wire Line
+	6200 1700 6100 1700
+Wire Wire Line
+	7000 1700 6900 1700
+Wire Wire Line
+	7800 1700 7700 1700
+Wire Wire Line
+	8600 1700 8500 1700
+Connection ~ 7200 1225
+Connection ~ 5600 1225
+Wire Wire Line
+	5600 1225 6400 1225
+Wire Wire Line
+	4800 1225 5600 1225
+Connection ~ 6400 1225
+Wire Wire Line
+	6400 1225 7200 1225
+Text HLabel 2800 1225 0    50   Input ~ 0
+ROW_0
+Text HLabel 2800 1950 0    50   Input ~ 0
+ROW_1
+Text HLabel 2800 2650 0    50   Input ~ 0
+ROW_2
+Text HLabel 2800 3375 0    50   Input ~ 0
+ROW_3
+Text HLabel 2800 4075 0    50   Input ~ 0
+ROW_4
+Text HLabel 2800 4775 0    50   Input ~ 0
+ROW_5
+Text HLabel 3400 5650 3    50   Input ~ 0
+COL_0
+Text HLabel 4200 5650 3    50   Input ~ 0
+COL_1
+Text HLabel 5000 5650 3    50   Input ~ 0
+COL_2
+Text HLabel 5800 5650 3    50   Input ~ 0
+COL_3
+Text HLabel 6600 5650 3    50   Input ~ 0
+COL_4
+Text HLabel 7400 5650 3    50   Input ~ 0
+COL_5
+Text HLabel 8200 5650 3    50   Input ~ 0
+COL_6
+Connection ~ 4800 1225
+Wire Wire Line
+	4000 1225 4800 1225
+Connection ~ 4000 1225
+Wire Wire Line
+	3200 1225 4000 1225
+Connection ~ 3200 1225
+Wire Wire Line
+	2800 1225 3200 1225
+$Comp
+L Switch:SW_Push SW0:2
+U 1 1 5EFFC3B4
+P 5150 1375
+F 0 "SW0:2" H 5150 1660 50  0000 C CNN
+F 1 "SW_Push" H 5150 1569 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5150 1575 50  0001 C CNN
+F 3 "~" H 5150 1575 50  0001 C CNN
+	1    5150 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW0:0
+U 1 1 5EFFCF48
+P 3550 1375
+F 0 "SW0:0" H 3550 1660 50  0000 C CNN
+F 1 "SW_Push" H 3550 1569 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 3550 1575 50  0001 C CNN
+F 3 "~" H 3550 1575 50  0001 C CNN
+	1    3550 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1375 3800 1375
+Wire Wire Line
+	3800 1375 3800 1700
+Wire Wire Line
+	3200 1375 3350 1375
+Wire Wire Line
+	3200 1375 3200 1225
+$Comp
+L Switch:SW_Push SW0:1
+U 1 1 5F014246
+P 4350 1375
+F 0 "SW0:1" H 4350 1660 50  0000 C CNN
+F 1 "SW_Push" H 4350 1569 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 4350 1575 50  0001 C CNN
+F 3 "~" H 4350 1575 50  0001 C CNN
+	1    4350 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1375 4600 1375
+Wire Wire Line
+	4600 1375 4600 1700
+Wire Wire Line
+	4150 1375 4000 1375
+Wire Wire Line
+	4000 1375 4000 1225
+Wire Wire Line
+	5350 1375 5400 1375
+Wire Wire Line
+	5400 1375 5400 1700
+Wire Wire Line
+	4950 1375 4800 1375
+Wire Wire Line
+	4800 1375 4800 1225
+$Comp
+L Switch:SW_Push SW0:3
+U 1 1 5F043A01
+P 5950 1375
+F 0 "SW0:3" H 5950 1660 50  0000 C CNN
+F 1 "SW_Push" H 5950 1569 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5950 1575 50  0001 C CNN
+F 3 "~" H 5950 1575 50  0001 C CNN
+	1    5950 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1375 6200 1375
+Wire Wire Line
+	6200 1375 6200 1700
+Wire Wire Line
+	5750 1375 5600 1375
+Wire Wire Line
+	5600 1375 5600 1225
+$Comp
+L Switch:SW_Push SW0:4
+U 1 1 5F0677FB
+P 6750 1375
+F 0 "SW0:4" H 6750 1660 50  0000 C CNN
+F 1 "SW_Push" H 6750 1569 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 6750 1575 50  0001 C CNN
+F 3 "~" H 6750 1575 50  0001 C CNN
+	1    6750 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1375 7000 1375
+Wire Wire Line
+	7000 1375 7000 1700
+Wire Wire Line
+	6550 1375 6400 1375
+Wire Wire Line
+	6400 1375 6400 1225
+$Comp
+L Switch:SW_Push SW0:5
+U 1 1 5F07FF58
+P 7550 1375
+F 0 "SW0:5" H 7550 1660 50  0000 C CNN
+F 1 "SW_Push" H 7550 1569 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 7550 1575 50  0001 C CNN
+F 3 "~" H 7550 1575 50  0001 C CNN
+	1    7550 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1375 7800 1375
+Wire Wire Line
+	7800 1375 7800 1700
+Wire Wire Line
+	7350 1375 7200 1375
+Wire Wire Line
+	7200 1375 7200 1225
+$Comp
+L Switch:SW_Push SW0:6
+U 1 1 5F098CAA
+P 8350 1375
+F 0 "SW0:6" H 8350 1660 50  0000 C CNN
+F 1 "SW_Push" H 8350 1569 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 8350 1575 50  0001 C CNN
+F 3 "~" H 8350 1575 50  0001 C CNN
+	1    8350 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1375 8600 1375
+Wire Wire Line
+	8600 1375 8600 1700
+Wire Wire Line
+	8150 1375 8150 1225
+Wire Wire Line
+	7200 1225 8150 1225
+$Comp
+L Switch:SW_Push SW1:6
+U 1 1 5F0B5DA2
+P 8350 2100
+F 0 "SW1:6" H 8350 2385 50  0000 C CNN
+F 1 "SW_Push" H 8350 2294 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 8350 2300 50  0001 C CNN
+F 3 "~" H 8350 2300 50  0001 C CNN
+	1    8350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2100 8600 2100
+Wire Wire Line
+	8600 2100 8600 2400
+$Comp
+L Switch:SW_Push SW1:5
+U 1 1 5F1D3338
+P 7550 2100
+F 0 "SW1:5" H 7550 2385 50  0000 C CNN
+F 1 "SW_Push" H 7550 2294 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 7550 2300 50  0001 C CNN
+F 3 "~" H 7550 2300 50  0001 C CNN
+	1    7550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2100 7800 2100
+Wire Wire Line
+	7800 2100 7800 2400
+$Comp
+L Switch:SW_Push SW1:4
+U 1 1 5F1DDBD1
+P 6775 2100
+F 0 "SW1:4" H 6775 2385 50  0000 C CNN
+F 1 "SW_Push" H 6775 2294 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 6775 2300 50  0001 C CNN
+F 3 "~" H 6775 2300 50  0001 C CNN
+	1    6775 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 2100 7000 2100
+Wire Wire Line
+	7000 2100 7000 2400
+$Comp
+L Switch:SW_Push SW1:3
+U 1 1 5F1E84C3
+P 5950 2100
+F 0 "SW1:3" H 5950 2385 50  0000 C CNN
+F 1 "SW_Push" H 5950 2294 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5950 2300 50  0001 C CNN
+F 3 "~" H 5950 2300 50  0001 C CNN
+	1    5950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2100 6200 2100
+Wire Wire Line
+	6200 2100 6200 2400
+$Comp
+L Switch:SW_Push SW1:2
+U 1 1 5F1F33C0
+P 5150 2100
+F 0 "SW1:2" H 5150 2385 50  0000 C CNN
+F 1 "SW_Push" H 5150 2294 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5150 2300 50  0001 C CNN
+F 3 "~" H 5150 2300 50  0001 C CNN
+	1    5150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2100 5400 2100
+Wire Wire Line
+	5400 2100 5400 2400
+$Comp
+L Switch:SW_Push SW1:1
+U 1 1 5F1FE12A
+P 4350 2100
+F 0 "SW1:1" H 4350 2385 50  0000 C CNN
+F 1 "SW_Push" H 4350 2294 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 4350 2300 50  0001 C CNN
+F 3 "~" H 4350 2300 50  0001 C CNN
+	1    4350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2100 4600 2100
+Wire Wire Line
+	4600 2100 4600 2400
+$Comp
+L Switch:SW_Push SW1:0
+U 1 1 5F208EF2
+P 3550 2100
+F 0 "SW1:0" H 3550 2385 50  0000 C CNN
+F 1 "SW_Push" H 3550 2294 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 3550 2300 50  0001 C CNN
+F 3 "~" H 3550 2300 50  0001 C CNN
+	1    3550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2100 3800 2100
+Wire Wire Line
+	3800 2100 3800 2400
+Wire Wire Line
+	2800 1950 3350 1950
+Wire Wire Line
+	8150 1950 8150 2100
+Wire Wire Line
+	7350 1950 7350 2100
+Connection ~ 7350 1950
+Wire Wire Line
+	7350 1950 8150 1950
+Wire Wire Line
+	5750 2100 5750 1950
+Connection ~ 5750 1950
+Wire Wire Line
+	5750 1950 6575 1950
+Wire Wire Line
+	4150 2100 4150 1950
+Connection ~ 4150 1950
+Wire Wire Line
+	4150 1950 4950 1950
+Wire Wire Line
+	4950 2100 4950 1950
+Connection ~ 4950 1950
+Wire Wire Line
+	4950 1950 5750 1950
+Wire Wire Line
+	3350 2100 3350 1950
+Connection ~ 3350 1950
+Wire Wire Line
+	3350 1950 4150 1950
+Wire Wire Line
+	6575 1950 6575 2100
+Connection ~ 6575 1950
+Wire Wire Line
+	6575 1950 7350 1950
+$Comp
+L Switch:SW_Push SW2:5
+U 1 1 5F2649C6
+P 7550 2800
+F 0 "SW2:5" H 7550 3085 50  0000 C CNN
+F 1 "SW_Push" H 7550 2994 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 7550 3000 50  0001 C CNN
+F 3 "~" H 7550 3000 50  0001 C CNN
+	1    7550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2800 7800 2800
+Wire Wire Line
+	7800 2800 7800 3100
+$Comp
+L Switch:SW_Push SW2:0
+U 1 1 5F38107B
+P 3550 2800
+F 0 "SW2:0" H 3550 3085 50  0000 C CNN
+F 1 "SW_Push" H 3550 2994 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 3550 3000 50  0001 C CNN
+F 3 "~" H 3550 3000 50  0001 C CNN
+	1    3550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2:1
+U 1 1 5F38175C
+P 4350 2800
+F 0 "SW2:1" H 4350 3085 50  0000 C CNN
+F 1 "SW_Push" H 4350 2994 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 4350 3000 50  0001 C CNN
+F 3 "~" H 4350 3000 50  0001 C CNN
+	1    4350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2:2
+U 1 1 5F381EDF
+P 5150 2800
+F 0 "SW2:2" H 5150 3085 50  0000 C CNN
+F 1 "SW_Push" H 5150 2994 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5150 3000 50  0001 C CNN
+F 3 "~" H 5150 3000 50  0001 C CNN
+	1    5150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2:3
+U 1 1 5F382726
+P 5950 2800
+F 0 "SW2:3" H 5950 3085 50  0000 C CNN
+F 1 "SW_Push" H 5950 2994 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5950 3000 50  0001 C CNN
+F 3 "~" H 5950 3000 50  0001 C CNN
+	1    5950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2:4
+U 1 1 5F382FED
+P 6775 2800
+F 0 "SW2:4" H 6775 3085 50  0000 C CNN
+F 1 "SW_Push" H 6775 2994 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 6775 3000 50  0001 C CNN
+F 3 "~" H 6775 3000 50  0001 C CNN
+	1    6775 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2800 5400 2800
+Wire Wire Line
+	5400 2800 5400 3100
+Wire Wire Line
+	6150 2800 6200 2800
+Wire Wire Line
+	6200 2800 6200 3100
+Wire Wire Line
+	6975 2800 7000 2800
+Wire Wire Line
+	7000 2800 7000 3100
+Wire Wire Line
+	4550 2800 4600 2800
+Wire Wire Line
+	4600 2800 4600 3100
+Wire Wire Line
+	3750 2800 3800 2800
+Wire Wire Line
+	3800 2800 3800 3100
+Wire Wire Line
+	2800 2650 3350 2650
+Wire Wire Line
+	7350 2650 7350 2800
+Wire Wire Line
+	6575 2650 6575 2800
+Connection ~ 6575 2650
+Wire Wire Line
+	6575 2650 7350 2650
+Wire Wire Line
+	5750 2650 5750 2800
+Connection ~ 5750 2650
+Wire Wire Line
+	5750 2650 6575 2650
+Wire Wire Line
+	4150 2800 4150 2650
+Connection ~ 4150 2650
+Wire Wire Line
+	4150 2650 4950 2650
+Wire Wire Line
+	3350 2800 3350 2650
+Connection ~ 3350 2650
+Wire Wire Line
+	3350 2650 4150 2650
+$Comp
+L Switch:SW_Push SW3:6
+U 1 1 5F40625C
+P 8350 3525
+F 0 "SW3:6" H 8350 3810 50  0000 C CNN
+F 1 "SW_Push" H 8350 3719 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 8350 3725 50  0001 C CNN
+F 3 "~" H 8350 3725 50  0001 C CNN
+	1    8350 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3:5
+U 1 1 5F406FC7
+P 7550 3525
+F 0 "SW3:5" H 7550 3810 50  0000 C CNN
+F 1 "SW_Push" H 7550 3719 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 7550 3725 50  0001 C CNN
+F 3 "~" H 7550 3725 50  0001 C CNN
+	1    7550 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3:4
+U 1 1 5F4074F8
+P 6775 3525
+F 0 "SW3:4" H 6775 3810 50  0000 C CNN
+F 1 "SW_Push" H 6775 3719 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 6775 3725 50  0001 C CNN
+F 3 "~" H 6775 3725 50  0001 C CNN
+	1    6775 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3:3
+U 1 1 5F407DA4
+P 5950 3525
+F 0 "SW3:3" H 5950 3810 50  0000 C CNN
+F 1 "SW_Push" H 5950 3719 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5950 3725 50  0001 C CNN
+F 3 "~" H 5950 3725 50  0001 C CNN
+	1    5950 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3:2
+U 1 1 5F4086BC
+P 5150 3525
+F 0 "SW3:2" H 5150 3810 50  0000 C CNN
+F 1 "SW_Push" H 5150 3719 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5150 3725 50  0001 C CNN
+F 3 "~" H 5150 3725 50  0001 C CNN
+	1    5150 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3:1
+U 1 1 5F408AA9
+P 4350 3525
+F 0 "SW3:1" H 4350 3810 50  0000 C CNN
+F 1 "SW_Push" H 4350 3719 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 4350 3725 50  0001 C CNN
+F 3 "~" H 4350 3725 50  0001 C CNN
+	1    4350 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3:0
+U 1 1 5F4094F3
+P 3550 3525
+F 0 "SW3:0" H 3550 3810 50  0000 C CNN
+F 1 "SW_Push" H 3550 3719 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 3550 3725 50  0001 C CNN
+F 3 "~" H 3550 3725 50  0001 C CNN
+	1    3550 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3375 3350 3375
+Wire Wire Line
+	8150 3375 8150 3525
+Wire Wire Line
+	8550 3525 8600 3525
+Wire Wire Line
+	8600 3525 8600 3800
+Wire Wire Line
+	7750 3525 7800 3525
+Wire Wire Line
+	7800 3525 7800 3800
+Wire Wire Line
+	7350 3525 7350 3375
+Connection ~ 7350 3375
+Wire Wire Line
+	7350 3375 8150 3375
+Wire Wire Line
+	6975 3525 7000 3525
+Wire Wire Line
+	7000 3525 7000 3800
+Wire Wire Line
+	6575 3525 6575 3375
+Connection ~ 6575 3375
+Wire Wire Line
+	6575 3375 7350 3375
+Wire Wire Line
+	6150 3525 6200 3525
+Wire Wire Line
+	6200 3525 6200 3800
+Wire Wire Line
+	5750 3525 5750 3375
+Connection ~ 5750 3375
+Wire Wire Line
+	5750 3375 6575 3375
+Wire Wire Line
+	4550 3525 4600 3525
+Wire Wire Line
+	4600 3525 4600 3800
+Wire Wire Line
+	4150 3525 4150 3375
+Connection ~ 4150 3375
+Wire Wire Line
+	4150 3375 4950 3375
+Wire Wire Line
+	3750 3525 3800 3525
+Wire Wire Line
+	3800 3525 3800 3800
+Wire Wire Line
+	3350 3525 3350 3375
+Connection ~ 3350 3375
+Wire Wire Line
+	3350 3375 4150 3375
+$Comp
+L Switch:SW_Push SW4:0
+U 1 1 5F62859E
+P 3550 4225
+F 0 "SW4:0" H 3550 4510 50  0000 C CNN
+F 1 "SW_Push" H 3550 4419 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 3550 4425 50  0001 C CNN
+F 3 "~" H 3550 4425 50  0001 C CNN
+	1    3550 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4:1
+U 1 1 5F628C9A
+P 4350 4200
+F 0 "SW4:1" H 4350 4485 50  0000 C CNN
+F 1 "SW_Push" H 4350 4394 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 4350 4400 50  0001 C CNN
+F 3 "~" H 4350 4400 50  0001 C CNN
+	1    4350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4:2
+U 1 1 5F6291CB
+P 5150 4200
+F 0 "SW4:2" H 5150 4485 50  0000 C CNN
+F 1 "SW_Push" H 5150 4394 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5150 4400 50  0001 C CNN
+F 3 "~" H 5150 4400 50  0001 C CNN
+	1    5150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4:3
+U 1 1 5F629783
+P 5950 4200
+F 0 "SW4:3" H 5950 4485 50  0000 C CNN
+F 1 "SW_Push" H 5950 4394 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5950 4400 50  0001 C CNN
+F 3 "~" H 5950 4400 50  0001 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4:4
+U 1 1 5F629D3B
+P 6775 4200
+F 0 "SW4:4" H 6775 4485 50  0000 C CNN
+F 1 "SW_Push" H 6775 4394 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 6775 4400 50  0001 C CNN
+F 3 "~" H 6775 4400 50  0001 C CNN
+	1    6775 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4075 3350 4075
+Wire Wire Line
+	6575 4075 6575 4200
+Wire Wire Line
+	6975 4200 7000 4200
+Wire Wire Line
+	7000 4200 7000 4500
+Wire Wire Line
+	6150 4200 6200 4200
+Wire Wire Line
+	6200 4200 6200 4500
+Wire Wire Line
+	5350 4200 5400 4200
+Wire Wire Line
+	5400 4200 5400 4500
+Wire Wire Line
+	4550 4200 4600 4200
+Wire Wire Line
+	4600 4200 4600 4500
+Wire Wire Line
+	3750 4225 3800 4225
+Wire Wire Line
+	3800 4225 3800 4500
+Wire Wire Line
+	4150 4200 4150 4075
+Connection ~ 4150 4075
+Wire Wire Line
+	4150 4075 4950 4075
+Wire Wire Line
+	4950 4200 4950 4075
+Connection ~ 4950 4075
+Wire Wire Line
+	4950 4075 5750 4075
+Wire Wire Line
+	5750 4200 5750 4075
+Connection ~ 5750 4075
+Wire Wire Line
+	5750 4075 6575 4075
+Wire Wire Line
+	3350 4225 3350 4075
+Connection ~ 3350 4075
+Wire Wire Line
+	3350 4075 4150 4075
+Wire Wire Line
+	4950 3525 4950 3375
+Connection ~ 4950 3375
+Wire Wire Line
+	4950 3375 5750 3375
+$Comp
+L Switch:SW_Push SW5:1
+U 1 1 5F9A710E
+P 4425 4925
+F 0 "SW5:1" H 4425 5210 50  0000 C CNN
+F 1 "SW_Push" H 4425 5119 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 4425 5125 50  0001 C CNN
+F 3 "~" H 4425 5125 50  0001 C CNN
+	1    4425 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5:3
+U 1 1 5F9A759D
+P 5950 4925
+F 0 "SW5:3" H 5950 5210 50  0000 C CNN
+F 1 "SW_Push" H 5950 5119 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 5950 5125 50  0001 C CNN
+F 3 "~" H 5950 5125 50  0001 C CNN
+	1    5950 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5:0
+U 1 1 5F9A89D4
+P 3550 4925
+F 0 "SW5:0" H 3550 5210 50  0000 C CNN
+F 1 "SW_Push" H 3550 5119 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual" H 3550 5125 50  0001 C CNN
+F 3 "~" H 3550 5125 50  0001 C CNN
+	1    3550 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4775 3350 4775
+Wire Wire Line
+	6975 4925 7000 4925
+Wire Wire Line
+	7000 4925 7000 5425
+Wire Wire Line
+	6150 4925 6200 4925
+Wire Wire Line
+	6200 4925 6200 5200
+Wire Wire Line
+	3750 4925 3800 4925
+Wire Wire Line
+	3800 4925 3800 5200
+Wire Wire Line
+	3350 4925 3350 4775
+Connection ~ 3350 4775
+Wire Wire Line
+	3350 4775 4150 4775
+Wire Wire Line
+	4150 4925 4150 4775
+Connection ~ 4150 4775
+Wire Wire Line
+	4150 4775 4950 4775
+Wire Wire Line
+	4950 4925 4950 4775
+Connection ~ 4950 4775
+Wire Wire Line
+	4950 4775 5750 4775
+Wire Wire Line
+	5750 4925 5750 4775
+Connection ~ 5750 4775
+Wire Wire Line
+	5750 4775 6575 4775
+Wire Wire Line
+	6575 4925 6575 4775
+Connection ~ 6575 4775
+Wire Wire Line
+	5350 3525 5400 3525
+Wire Wire Line
+	5400 3525 5400 3800
+Wire Wire Line
+	4950 2800 4950 2650
+Connection ~ 4950 2650
+Wire Wire Line
+	4950 2650 5750 2650
+$Comp
+L Device:R R?
+U 1 1 5F09F9EA
+P 7975 5350
+AR Path="/5F131C33/5F09F9EA" Ref="R?"  Part="1" 
+AR Path="/5EF78767/5F09F9EA" Ref="R4"  Part="1" 
+F 0 "R4" V 7768 5350 50  0000 C CNN
+F 1 "220Ω" V 7859 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7905 5350 50  0001 C CNN
+F 3 "~" H 7975 5350 50  0001 C CNN
+F 4 "" V 7975 5350 50  0001 C CNN "LCSC"
+	1    7975 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F09F9F0
+P 5575 5350
+AR Path="/5F131C33/5F09F9F0" Ref="R?"  Part="1" 
+AR Path="/5EF78767/5F09F9F0" Ref="R3"  Part="1" 
+F 0 "R3" V 5368 5350 50  0000 C CNN
+F 1 "220Ω" V 5459 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5505 5350 50  0001 C CNN
+F 3 "~" H 5575 5350 50  0001 C CNN
+F 4 "" V 5575 5350 50  0001 C CNN "LCSC"
+	1    5575 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F09F9F6
+P 7050 5325
+AR Path="/5F131C33/5F09F9F6" Ref="R?"  Part="1" 
+AR Path="/5EF78767/5F09F9F6" Ref="R2"  Part="1" 
+F 0 "R2" V 6843 5325 50  0000 C CNN
+F 1 "220Ω" V 6934 5325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 5325 50  0001 C CNN
+F 3 "~" H 7050 5325 50  0001 C CNN
+F 4 "" V 7050 5325 50  0001 C CNN "LCSC"
+	1    7050 5325
+	-1   0    0    1   
+$EndComp
+Text HLabel 7050 5650 3    50   Input ~ 0
+LED_2
+Text HLabel 5575 5650 3    50   Input ~ 0
+LED_1
+Text HLabel 7975 5650 3    50   Input ~ 0
+LED_3
+$Comp
+L Component:Switch_LED SW5:5
+U 1 1 5F1F6AE6
+P 7625 4925
+F 0 "SW5:5" H 7625 5210 50  0000 C CNN
+F 1 "Switch_LED" H 7625 5119 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual_led" H 7625 4925 50  0001 C CNN
+F 3 "" H 7625 4925 50  0001 C CNN
+	1    7625 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7425 4775 7425 4925
+Wire Wire Line
+	7825 4925 7825 5425
+Wire Wire Line
+	7825 5425 7700 5425
+Wire Wire Line
+	7975 5200 7975 5075
+Wire Wire Line
+	7975 5075 7775 5075
+Wire Wire Line
+	7975 5500 7975 5650
+Text Label 7250 5575 3    50   ~ 0
+GND
+Wire Wire Line
+	7250 5575 7250 5075
+Wire Wire Line
+	7250 5075 7475 5075
+$Comp
+L Component:Switch_LED SW5:2
+U 1 1 5F2E0292
+P 5225 4925
+F 0 "SW5:2" H 5225 5210 50  0000 C CNN
+F 1 "Switch_LED" H 5225 5119 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual_led" H 5225 4925 50  0001 C CNN
+F 3 "" H 5225 4925 50  0001 C CNN
+	1    5225 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5425 4925 5425 5425
+Wire Wire Line
+	5425 5425 5300 5425
+Wire Wire Line
+	5375 5075 5575 5075
+Wire Wire Line
+	5575 5075 5575 5200
+Wire Wire Line
+	5575 5650 5575 5500
+Text Label 4875 5575 3    50   ~ 0
+GND
+Wire Wire Line
+	5075 5075 4875 5075
+Wire Wire Line
+	4875 5075 4875 5575
+Wire Wire Line
+	4950 4925 5025 4925
+$Comp
+L Component:Switch_LED SW5:4
+U 1 1 5F3A191D
+P 6775 4925
+F 0 "SW5:4" H 6775 5210 50  0000 C CNN
+F 1 "Switch_LED" H 6775 5119 50  0000 C CNN
+F 2 "Component:Kailh_hot_socket_MX_dual_led" H 6775 4925 50  0001 C CNN
+F 3 "" H 6775 4925 50  0001 C CNN
+	1    6775 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4925 4225 4925
+Wire Wire Line
+	6925 5075 7050 5075
+Wire Wire Line
+	7050 5075 7050 5175
+Wire Wire Line
+	7050 5650 7050 5475
+Text Label 6475 5575 3    50   ~ 0
+GND
+Wire Wire Line
+	6475 5575 6475 5075
+Text Label 2500 6575 0    50   ~ 0
+GND
+Text HLabel 2100 6575 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2100 6575 2500 6575
+$Comp
+L Diode:1N4148W D0:0
+U 1 1 5F01DF99
+P 3550 1700
+F 0 "D0:0" H 3550 1917 50  0000 C CNN
+F 1 "1N4148W" H 3550 1826 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 3550 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3550 1700 50  0001 C CNN
+F 4 "" H 3550 1700 50  0001 C CNN "LCSC"
+	1    3550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D0:1
+U 1 1 5F020E3B
+P 4350 1700
+F 0 "D0:1" H 4350 1917 50  0000 C CNN
+F 1 "1N4148W" H 4350 1826 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 4350 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 1700 50  0001 C CNN
+F 4 "" H 4350 1700 50  0001 C CNN "LCSC"
+	1    4350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D0:2
+U 1 1 5F022878
+P 5150 1700
+F 0 "D0:2" H 5150 1917 50  0000 C CNN
+F 1 "1N4148W" H 5150 1826 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5150 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 1700 50  0001 C CNN
+F 4 "" H 5150 1700 50  0001 C CNN "LCSC"
+	1    5150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D0:3
+U 1 1 5F025D0B
+P 5950 1700
+F 0 "D0:3" H 5950 1917 50  0000 C CNN
+F 1 "1N4148W" H 5950 1826 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5950 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5950 1700 50  0001 C CNN
+F 4 "" H 5950 1700 50  0001 C CNN "LCSC"
+	1    5950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D0:4
+U 1 1 5F027707
+P 6750 1700
+F 0 "D0:4" H 6750 1917 50  0000 C CNN
+F 1 "1N4148W" H 6750 1826 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 6750 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6750 1700 50  0001 C CNN
+F 4 "" H 6750 1700 50  0001 C CNN "LCSC"
+	1    6750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D0:5
+U 1 1 5F028F0A
+P 7550 1700
+F 0 "D0:5" H 7550 1917 50  0000 C CNN
+F 1 "1N4148W" H 7550 1826 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 7550 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7550 1700 50  0001 C CNN
+F 4 "" H 7550 1700 50  0001 C CNN "LCSC"
+	1    7550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D0:6
+U 1 1 5F02A91A
+P 8350 1700
+F 0 "D0:6" H 8350 1917 50  0000 C CNN
+F 1 "1N4148W" H 8350 1826 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 8350 1525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8350 1700 50  0001 C CNN
+F 4 "" H 8350 1700 50  0001 C CNN "LCSC"
+	1    8350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1700 3400 2400
+$Comp
+L Diode:1N4148W D1:0
+U 1 1 5F02C2E9
+P 3550 2400
+F 0 "D1:0" H 3550 2617 50  0000 C CNN
+F 1 "1N4148W" H 3550 2526 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 3550 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3550 2400 50  0001 C CNN
+F 4 "" H 3550 2400 50  0001 C CNN "LCSC"
+	1    3550 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 2400
+Wire Wire Line
+	4200 1700 4200 2400
+$Comp
+L Diode:1N4148W D1:1
+U 1 1 5F02DD1A
+P 4350 2400
+F 0 "D1:1" H 4350 2617 50  0000 C CNN
+F 1 "1N4148W" H 4350 2526 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 4350 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 2400 50  0001 C CNN
+F 4 "" H 4350 2400 50  0001 C CNN "LCSC"
+	1    4350 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 2400
+Wire Wire Line
+	5000 1700 5000 2400
+$Comp
+L Diode:1N4148W D1:2
+U 1 1 5F02F538
+P 5150 2400
+F 0 "D1:2" H 5150 2617 50  0000 C CNN
+F 1 "1N4148W" H 5150 2526 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5150 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 2400 50  0001 C CNN
+F 4 "" H 5150 2400 50  0001 C CNN "LCSC"
+	1    5150 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 2400
+Wire Wire Line
+	6600 1700 6600 2400
+Wire Wire Line
+	5800 1700 5800 2400
+Connection ~ 5800 2400
+$Comp
+L Diode:1N4148W D1:3
+U 1 1 5F0305D5
+P 5950 2400
+F 0 "D1:3" H 5950 2617 50  0000 C CNN
+F 1 "1N4148W" H 5950 2526 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5950 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5950 2400 50  0001 C CNN
+F 4 "" H 5950 2400 50  0001 C CNN "LCSC"
+	1    5950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D1:4
+U 1 1 5F033597
+P 6750 2400
+F 0 "D1:4" H 6750 2617 50  0000 C CNN
+F 1 "1N4148W" H 6750 2526 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 6750 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6750 2400 50  0001 C CNN
+F 4 "" H 6750 2400 50  0001 C CNN "LCSC"
+	1    6750 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 2400
+Wire Wire Line
+	7400 1700 7400 2400
+$Comp
+L Diode:1N4148W D1:5
+U 1 1 5F034D28
+P 7550 2400
+F 0 "D1:5" H 7550 2617 50  0000 C CNN
+F 1 "1N4148W" H 7550 2526 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 7550 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7550 2400 50  0001 C CNN
+F 4 "" H 7550 2400 50  0001 C CNN "LCSC"
+	1    7550 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 2400
+Wire Wire Line
+	8200 1700 8200 2400
+$Comp
+L Diode:1N4148W D1:6
+U 1 1 5F03653A
+P 8350 2400
+F 0 "D1:6" H 8350 2617 50  0000 C CNN
+F 1 "1N4148W" H 8350 2526 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 8350 2225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8350 2400 50  0001 C CNN
+F 4 "" H 8350 2400 50  0001 C CNN "LCSC"
+	1    8350 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 2400
+Wire Wire Line
+	3400 2400 3400 3100
+$Comp
+L Diode:1N4148W D2:0
+U 1 1 5F037F5C
+P 3550 3100
+F 0 "D2:0" H 3550 3317 50  0000 C CNN
+F 1 "1N4148W" H 3550 3226 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 3550 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3550 3100 50  0001 C CNN
+F 4 "" H 3550 3100 50  0001 C CNN "LCSC"
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 3100
+Wire Wire Line
+	4200 2400 4200 3100
+$Comp
+L Diode:1N4148W D2:1
+U 1 1 5F039810
+P 4350 3100
+F 0 "D2:1" H 4350 3317 50  0000 C CNN
+F 1 "1N4148W" H 4350 3226 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 4350 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 3100 50  0001 C CNN
+F 4 "" H 4350 3100 50  0001 C CNN "LCSC"
+	1    4350 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 3100
+Wire Wire Line
+	5000 2400 5000 3100
+$Comp
+L Diode:1N4148W D2:2
+U 1 1 5F03AA93
+P 5150 3100
+F 0 "D2:2" H 5150 3317 50  0000 C CNN
+F 1 "1N4148W" H 5150 3226 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5150 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 3100 50  0001 C CNN
+F 4 "" H 5150 3100 50  0001 C CNN "LCSC"
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 3100
+Wire Wire Line
+	5800 2400 5800 3100
+$Comp
+L Diode:1N4148W D2:3
+U 1 1 5F03BD82
+P 5950 3100
+F 0 "D2:3" H 5950 3317 50  0000 C CNN
+F 1 "1N4148W" H 5950 3226 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5950 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5950 3100 50  0001 C CNN
+F 4 "" H 5950 3100 50  0001 C CNN "LCSC"
+	1    5950 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 3100
+Wire Wire Line
+	6600 2400 6600 3100
+$Comp
+L Diode:1N4148W D2:4
+U 1 1 5F03D5A9
+P 6750 3100
+F 0 "D2:4" H 6750 3317 50  0000 C CNN
+F 1 "1N4148W" H 6750 3226 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 6750 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6750 3100 50  0001 C CNN
+F 4 "" H 6750 3100 50  0001 C CNN "LCSC"
+	1    6750 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3100
+Wire Wire Line
+	7400 2400 7400 3100
+$Comp
+L Diode:1N4148W D2:5
+U 1 1 5F03E760
+P 7550 3100
+F 0 "D2:5" H 7550 3317 50  0000 C CNN
+F 1 "1N4148W" H 7550 3226 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 7550 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7550 3100 50  0001 C CNN
+F 4 "" H 7550 3100 50  0001 C CNN "LCSC"
+	1    7550 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 3100
+Wire Wire Line
+	3400 3100 3400 3800
+$Comp
+L Diode:1N4148W D3:0
+U 1 1 5F03FD2F
+P 3550 3800
+F 0 "D3:0" H 3550 4017 50  0000 C CNN
+F 1 "1N4148W" H 3550 3926 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 3550 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3550 3800 50  0001 C CNN
+F 4 "" H 3550 3800 50  0001 C CNN "LCSC"
+	1    3550 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 3800
+Wire Wire Line
+	4200 3100 4200 3800
+$Comp
+L Diode:1N4148W D3:1
+U 1 1 5F041466
+P 4350 3800
+F 0 "D3:1" H 4350 4017 50  0000 C CNN
+F 1 "1N4148W" H 4350 3926 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 4350 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 3800 50  0001 C CNN
+F 4 "" H 4350 3800 50  0001 C CNN "LCSC"
+	1    4350 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 3800
+Wire Wire Line
+	5000 3100 5000 3800
+$Comp
+L Diode:1N4148W D3:2
+U 1 1 5F0425B4
+P 5150 3800
+F 0 "D3:2" H 5150 4017 50  0000 C CNN
+F 1 "1N4148W" H 5150 3926 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5150 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 3800 50  0001 C CNN
+F 4 "" H 5150 3800 50  0001 C CNN "LCSC"
+	1    5150 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 3800
+Wire Wire Line
+	5800 3100 5800 3800
+$Comp
+L Diode:1N4148W D3:3
+U 1 1 5F043645
+P 5950 3800
+F 0 "D3:3" H 5950 4017 50  0000 C CNN
+F 1 "1N4148W" H 5950 3926 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5950 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5950 3800 50  0001 C CNN
+F 4 "" H 5950 3800 50  0001 C CNN "LCSC"
+	1    5950 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 3800
+Wire Wire Line
+	6600 3100 6600 3800
+$Comp
+L Diode:1N4148W D3:4
+U 1 1 5F044574
+P 6750 3800
+F 0 "D3:4" H 6750 4017 50  0000 C CNN
+F 1 "1N4148W" H 6750 3926 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 6750 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6750 3800 50  0001 C CNN
+F 4 "" H 6750 3800 50  0001 C CNN "LCSC"
+	1    6750 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3800
+Wire Wire Line
+	7400 3100 7400 3800
+$Comp
+L Diode:1N4148W D3:5
+U 1 1 5F0456FE
+P 7550 3800
+F 0 "D3:5" H 7550 4017 50  0000 C CNN
+F 1 "1N4148W" H 7550 3926 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 7550 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7550 3800 50  0001 C CNN
+F 4 "" H 7550 3800 50  0001 C CNN "LCSC"
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 3800
+Wire Wire Line
+	8200 2400 8200 3800
+$Comp
+L Diode:1N4148W D3:6
+U 1 1 5F046936
+P 8350 3800
+F 0 "D3:6" H 8350 4017 50  0000 C CNN
+F 1 "1N4148W" H 8350 3926 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 8350 3625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8350 3800 50  0001 C CNN
+F 4 "" H 8350 3800 50  0001 C CNN "LCSC"
+	1    8350 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 3800
+Wire Wire Line
+	8200 3800 8200 5650
+Wire Wire Line
+	3400 3800 3400 4500
+$Comp
+L Diode:1N4148W D4:0
+U 1 1 5F0482CE
+P 3550 4500
+F 0 "D4:0" H 3550 4717 50  0000 C CNN
+F 1 "1N4148W" H 3550 4626 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 3550 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3550 4500 50  0001 C CNN
+F 4 "" H 3550 4500 50  0001 C CNN "LCSC"
+	1    3550 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 4500
+Wire Wire Line
+	4200 3800 4200 4500
+$Comp
+L Diode:1N4148W D4:1
+U 1 1 5F049B5B
+P 4350 4500
+F 0 "D4:1" H 4350 4717 50  0000 C CNN
+F 1 "1N4148W" H 4350 4626 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 4350 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 4500 50  0001 C CNN
+F 4 "" H 4350 4500 50  0001 C CNN "LCSC"
+	1    4350 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 4500
+Wire Wire Line
+	5000 3800 5000 4500
+$Comp
+L Diode:1N4148W D4:2
+U 1 1 5F04AAD8
+P 5150 4500
+F 0 "D4:2" H 5150 4717 50  0000 C CNN
+F 1 "1N4148W" H 5150 4626 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5150 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 4500 50  0001 C CNN
+F 4 "" H 5150 4500 50  0001 C CNN "LCSC"
+	1    5150 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4500
+Wire Wire Line
+	5800 3800 5800 4500
+$Comp
+L Diode:1N4148W D4:3
+U 1 1 5F04BA3D
+P 5950 4500
+F 0 "D4:3" H 5950 4717 50  0000 C CNN
+F 1 "1N4148W" H 5950 4626 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5950 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5950 4500 50  0001 C CNN
+F 4 "" H 5950 4500 50  0001 C CNN "LCSC"
+	1    5950 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 4500
+Wire Wire Line
+	6600 3800 6600 4500
+$Comp
+L Diode:1N4148W D4:4
+U 1 1 5F04C79B
+P 6750 4500
+F 0 "D4:4" H 6750 4717 50  0000 C CNN
+F 1 "1N4148W" H 6750 4626 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 6750 4325 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6750 4500 50  0001 C CNN
+F 4 "" H 6750 4500 50  0001 C CNN "LCSC"
+	1    6750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4500 3400 5200
+$Comp
+L Diode:1N4148W D5:0
+U 1 1 5F04DBBA
+P 3550 5200
+F 0 "D5:0" H 3550 5417 50  0000 C CNN
+F 1 "1N4148W" H 3550 5326 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 3550 5025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3550 5200 50  0001 C CNN
+F 4 "" H 3550 5200 50  0001 C CNN "LCSC"
+	1    3550 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 5200
+Wire Wire Line
+	3400 5200 3400 5650
+Wire Wire Line
+	4200 4500 4200 5200
+$Comp
+L Diode:1N4148W D5:1
+U 1 1 5F04F2EE
+P 4350 5200
+F 0 "D5:1" H 4350 5417 50  0000 C CNN
+F 1 "1N4148W" H 4350 5326 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 4350 5025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4350 5200 50  0001 C CNN
+F 4 "" H 4350 5200 50  0001 C CNN "LCSC"
+	1    4350 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 5200
+Wire Wire Line
+	4200 5200 4200 5650
+Wire Wire Line
+	5000 4500 5000 5425
+$Comp
+L Diode:1N4148W D5:2
+U 1 1 5F0502D4
+P 5150 5425
+F 0 "D5:2" H 5150 5642 50  0000 C CNN
+F 1 "1N4148W" H 5150 5551 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5150 5250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5150 5425 50  0001 C CNN
+F 4 "" H 5150 5425 50  0001 C CNN "LCSC"
+	1    5150 5425
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 5425
+Wire Wire Line
+	5000 5425 5000 5650
+Wire Wire Line
+	5800 4500 5800 5200
+$Comp
+L Diode:1N4148W D5:3
+U 1 1 5F0517D1
+P 5950 5200
+F 0 "D5:3" H 5950 5417 50  0000 C CNN
+F 1 "1N4148W" H 5950 5326 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 5950 5025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5950 5200 50  0001 C CNN
+F 4 "" H 5950 5200 50  0001 C CNN "LCSC"
+	1    5950 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 5200
+Wire Wire Line
+	5800 5200 5800 5650
+Wire Wire Line
+	7400 3800 7400 5425
+$Comp
+L Diode:1N4148W D5:5
+U 1 1 5F054834
+P 7550 5425
+F 0 "D5:5" H 7550 5642 50  0000 C CNN
+F 1 "1N4148W" H 7550 5551 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 7550 5250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7550 5425 50  0001 C CNN
+F 4 "" H 7550 5425 50  0001 C CNN "LCSC"
+	1    7550 5425
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 5425
+Wire Wire Line
+	7400 5425 7400 5650
+Wire Wire Line
+	6575 4775 7425 4775
+Wire Wire Line
+	6600 4500 6600 5425
+Connection ~ 6600 4500
+Connection ~ 6600 5425
+Wire Wire Line
+	6600 5425 6600 5650
+$Comp
+L Diode:1N4148W D5:4
+U 1 1 5F05312D
+P 6750 5425
+F 0 "D5:4" H 6750 5642 50  0000 C CNN
+F 1 "1N4148W" H 6750 5551 50  0000 C CNN
+F 2 "Component:D_SOD-123" H 6750 5250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6750 5425 50  0001 C CNN
+F 4 "" H 6750 5425 50  0001 C CNN "LCSC"
+	1    6750 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 5075 6625 5075
+Wire Wire Line
+	4625 4925 4625 5200
+Wire Wire Line
+	4625 5200 4500 5200
+$EndSCHEMATC

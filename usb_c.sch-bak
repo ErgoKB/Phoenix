@@ -1,0 +1,163 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R9
+U 1 1 5F12AD3D
+P 6625 4300
+F 0 "R9" H 6695 4346 50  0000 L CNN
+F 1 "5.1kΩ" H 6695 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6555 4300 50  0001 C CNN
+F 3 "~" H 6625 4300 50  0001 C CNN
+F 4 "" H 6625 4300 50  0001 C CNN "LCSC"
+	1    6625 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5F12C041
+P 6325 4300
+F 0 "R8" H 6395 4346 50  0000 L CNN
+F 1 "5.1kΩ" H 6395 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6255 4300 50  0001 C CNN
+F 3 "~" H 6325 4300 50  0001 C CNN
+F 4 "" H 6325 4300 50  0001 C CNN "LCSC"
+	1    6325 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0101
+U 1 1 5F12CCF4
+P 6475 4625
+F 0 "#PWR0101" H 6475 4425 50  0001 C CNN
+F 1 "GNDPWR" H 6479 4471 50  0000 C CNN
+F 2 "" H 6475 4575 50  0001 C CNN
+F 3 "" H 6475 4575 50  0001 C CNN
+	1    6475 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 4050 6625 4050
+Wire Wire Line
+	6625 4050 6625 4150
+Wire Wire Line
+	5825 4150 6325 4150
+Wire Wire Line
+	6325 4450 6325 4525
+Wire Wire Line
+	6325 4525 6475 4525
+Wire Wire Line
+	6625 4525 6625 4450
+Wire Wire Line
+	6475 4625 6475 4525
+Connection ~ 6475 4525
+Wire Wire Line
+	6475 4525 6625 4525
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 5F12E181
+P 5225 5675
+F 0 "#PWR0102" H 5225 5475 50  0001 C CNN
+F 1 "GNDPWR" H 5229 5521 50  0000 C CNN
+F 2 "" H 5225 5625 50  0001 C CNN
+F 3 "" H 5225 5625 50  0001 C CNN
+	1    5225 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 5350 4925 5500
+Wire Wire Line
+	4925 5500 5225 5500
+Wire Wire Line
+	5225 5500 5225 5675
+Wire Wire Line
+	5225 5350 5225 5500
+Connection ~ 5225 5500
+Text HLabel 5425 5500 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5425 5500 5225 5500
+Text HLabel 6000 3850 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	6000 3850 5900 3850
+Text HLabel 6025 4350 2    50   Input ~ 0
+D-
+Text HLabel 6025 4550 2    50   Input ~ 0
+D+
+Wire Wire Line
+	5825 4350 5875 4350
+Wire Wire Line
+	5825 4550 5875 4550
+Connection ~ 4925 5500
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EF8024B
+P 5900 3750
+F 0 "#FLG0101" H 5900 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5900 3923 50  0000 C CNN
+F 2 "" H 5900 3750 50  0001 C CNN
+F 3 "~" H 5900 3750 50  0001 C CNN
+	1    5900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3750 5900 3850
+Connection ~ 5900 3850
+Wire Wire Line
+	5900 3850 5825 3850
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EF80EA7
+P 4375 5400
+F 0 "#FLG0102" H 4375 5475 50  0001 C CNN
+F 1 "PWR_FLAG" H 4375 5573 50  0000 C CNN
+F 2 "" H 4375 5400 50  0001 C CNN
+F 3 "~" H 4375 5400 50  0001 C CNN
+	1    4375 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4375 5400 4375 5500
+Wire Wire Line
+	4375 5500 4925 5500
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 P1
+U 1 1 5F024E07
+P 5225 4450
+F 0 "P1" H 5332 5317 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 5332 5226 50  0000 C CNN
+F 2 "Component:USB_C_Receptacle_HRO_TYPE-C-31-M-12-Dual" H 5375 4450 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5375 4450 50  0001 C CNN
+	1    5225 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 4450 5875 4450
+Wire Wire Line
+	5875 4450 5875 4350
+Connection ~ 5875 4350
+Wire Wire Line
+	5875 4350 6025 4350
+Wire Wire Line
+	5825 4650 5875 4650
+Wire Wire Line
+	5875 4650 5875 4550
+Connection ~ 5875 4550
+Wire Wire Line
+	5875 4550 6025 4550
+NoConn ~ 5825 4950
+NoConn ~ 5825 5050
+$EndSCHEMATC
